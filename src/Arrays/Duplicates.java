@@ -28,6 +28,8 @@ public class Duplicates {
         return k;
     }
 
+
+    //Time-Complexity O(n)
     static int removeDuplicatesOptimal(int[] arr) {
         int i = 0;
         for (int j = 1; j < arr.length; j++) {
