@@ -7,7 +7,7 @@ import java.util.*;
 //Finding the second largest element in the array
 public class SecondLargest_element {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         System.out.println("enter the no of elements in the array");
         int n = sc.nextInt();
         int[] arr = new int[n];
@@ -52,7 +52,7 @@ public class SecondLargest_element {
         System.out.println(slargest);
     }
 
-
+   //optimal approach (Time complexity:O(N)
     public static void sec_largest_optimal(int[] arr, int n) {
         int largest = arr[0];
         int secondLargest = -1;
