@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Time - complexity - O(N0
 public class LeftRotate {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
