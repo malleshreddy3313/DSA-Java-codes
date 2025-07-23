@@ -3,7 +3,7 @@ package Arrays;
 public class MaxNoOfOnes {
     public static void main(String[] args) {
         int[] arr = {1,1,0,1,1,1,1,0,0,1};
-        int count = count(arr);
+        int count =  count(arr);
         System.out.println(count);
     }
 
