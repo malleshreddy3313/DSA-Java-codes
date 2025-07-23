@@ -5,7 +5,7 @@ import java.util.*;
 
 //Find the element that appears only once and all other that appears twice
 public class SingleElement {
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         int[] arr ={1,1,2,2,3,4,4,5,5};
         int result = single2(arr);
         System.out.println(result);
