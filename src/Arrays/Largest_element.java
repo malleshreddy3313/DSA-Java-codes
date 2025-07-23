@@ -7,7 +7,7 @@ import java.util.Arrays;
 // Finding the largest element in the array
 public class Largest_element {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         System.out.println("enter the no of elements in the array");
         int n = sc.nextInt();
         int[] arr = new int[n];
