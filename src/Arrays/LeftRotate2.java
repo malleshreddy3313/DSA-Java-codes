@@ -14,7 +14,7 @@ public class LeftRotate2 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("enter the no of digits to be rotated");
+        System.out.println ("enter the no of digits to be rotated");
         int d = sc.nextInt()%n;
         //left_rotate2(arr, n,d % n);
          rotate2(arr,n,d);
