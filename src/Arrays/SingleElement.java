@@ -7,7 +7,7 @@ import java.util.*;
 public class SingleElement {
     public static void main(String[] args) {
         int[] arr ={1,1,2,2,3,4,4,5,5};
-        int result = single2(arr);
+        int result =  single2(arr);
         System.out.println(result);
     }
     //better approach Time-complexity-0(N)+O(M)  space complexity -O(M)
