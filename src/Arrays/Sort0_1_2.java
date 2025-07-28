@@ -10,8 +10,8 @@ public class Sort0_1_2 {
         int n = arr.length;
 
         sort1(arr,0,n);
-        for(int i = 0 ; i < n ; i++){
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
     }
 
