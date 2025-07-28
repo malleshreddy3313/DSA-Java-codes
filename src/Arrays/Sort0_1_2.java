@@ -4,6 +4,7 @@ package Arrays;
 
 
 //sorting 0,1,2 using DUTCH NATIONAL FLAG ALGORITHM
+//Leetcode - https://leetcode.com/problems/sort-colors/
 public class Sort0_1_2 {
     public static void main(String[] args) {
         int[] arr = { 1, 0, 2, 1, 2, 0, 0, 0, 1, 2, 1, 2};
