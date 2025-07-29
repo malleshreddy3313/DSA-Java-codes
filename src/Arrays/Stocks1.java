@@ -9,10 +9,10 @@ public class Stocks1 {
     public static int profit(int[] arr) {
         int mini  = arr[0];
         int profit = 0;
-        for (int i = 0; i < arr.length; i++) {
-            int cost = arr[i] - mini;
-            profit  = Math.max(profit, cost);
-            mini = Math.min(mini, arr[i]);
+        for (int j : arr) {
+            int cost = j - mini;
+            profit = Math.max(profit, cost);
+            mini = Math.min(mini, j);
         }
         return profit;
     }
