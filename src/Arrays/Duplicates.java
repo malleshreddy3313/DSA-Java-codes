@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.HashSet;
 
-//Remove duplicates from Sorted array
+//Remove duplicates from the Sorted array
 public class Duplicates {
     public static void main(String[] args) {
         int arr[] = {1,1,2,2,2,3,3};
