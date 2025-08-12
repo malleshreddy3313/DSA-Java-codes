@@ -5,7 +5,7 @@ public class MinDaysForBouquet {
         int[] arr = {7, 7, 7, 7, 13, 11, 12, 7};
         int k = 2;
         int m = 3;
-        int ans = roseGarden(arr,k,m);
+        int ans =  roseGarden(arr,k,m);
         System.out.println(ans);
     }
 
