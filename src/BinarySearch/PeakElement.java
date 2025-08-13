@@ -22,7 +22,7 @@ public class PeakElement {
 
         while(left <= right){
             int mid = (left + right)/2;
-            if((arr[mid] > arr[mid -1 ])&&(arr[mid] > arr[mid+1])){
+            if((arr[mid] > arr[mid -1 ]) && (arr[mid] > arr[mid+1])){
                 return mid;
             }
             if(arr[mid] > arr[mid + 1]){
