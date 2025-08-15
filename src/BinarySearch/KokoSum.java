@@ -23,7 +23,7 @@ public class KokoSum {
 
         while(start <= end){
             int mid = start + (end - start)/2;
-            int totalhours = hours(arr,mid);
+            int totalhours  = hours(arr,mid);
             if(totalhours == h){
                 return mid;
             }else if(totalhours > h){
