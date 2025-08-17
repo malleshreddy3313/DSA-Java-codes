@@ -9,9 +9,9 @@ public class KokoSum {
     }
 
     public static int minHours(int[] arr, int h) {
-        int n = arr.length;
+        int n =  arr.length;
         int start = 1;
-        int maxi = Integer.MIN_VALUE;
+        int maxi =  Integer.MIN_VALUE;
         for(int i =0 ; i < n ; i++){
             if(arr[i] > maxi ){
                 maxi = arr[i];
