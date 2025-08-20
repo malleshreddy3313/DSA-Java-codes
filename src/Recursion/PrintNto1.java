@@ -14,11 +14,11 @@ public class PrintNto1 {
             return;
         }
 
-        //for N to 1
+        //print N to 1
         System.out.println(n);
         printN(n - 1);
 
-        //for 1 to N
+        //print 1 to N
         System.out.println(n);
     }
 }
