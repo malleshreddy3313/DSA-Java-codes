@@ -2,7 +2,7 @@ package Arrays;
 import java.util.*;
 
 
-//Arranging the arr elements in consecutive positive and negative indexes
+// Arranging the arr elements in consecutive positive and negative indexes
 
 public class ArrangeBySign {
     public static void main(String[] args) {
